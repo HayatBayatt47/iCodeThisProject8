@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.alan1{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(167, 157, 157);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    right: 120px;
+    bottom: 120px;
+}
+.carpi{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    right: 0px;
+    background-color: transparent;
+    border: transparent;
+}
+.carpi:hover{
+    background-color: whitesmoke;
+}
+.alan1Baslik{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 180px;
+}
+.alan1Paragraph{
+    position: relative;
+    top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0.8;
+    text-align: center;
+}
+.alan1Button1{
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    border-color: firebrick;
+    color: firebrick;
+    background-color: transparent;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.alan1Button1:hover{
+    transform: scale(1.1);
+    background-color: whitesmoke;
+}
+.alan1Button2{
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    border-color: firebrick;
+    color: white;
+    background-color: firebrick;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    transition: transform 0.3s ease, background-color 0.3s ease;;
+}
+.alan1Button2:hover{
+    transform: scale(1.1);
+    background-color: rgb(181, 73, 73);
+}
+.alan1Img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+}
+.alan2{
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(167, 157, 157);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 120px;
+    top: 120px;
+}
+.alan2Baslik{
+    font-size: 1.5rem;
+    position: relative;
+    top: 220px;
+    width: 250px;
+    display: flex;
+    text-align: center;
+}
+.alan2Paragraph{
+    position: relative;
+    top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+    opacity: 0.8;
+    text-align: center;
+}
+.alan2TextBox{
+    width: 280px;
+    height: 50px;
+    border-radius: 40px;
+    padding-left: 30px;
+    position: relative;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.alan2TextBox:hover{
+    box-shadow: 0px 0px 10px rgb(138, 130, 130);
+}
+.alan2Button{
+    position: absolute;
+    bottom: 40px;
+    width: 320px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: firebrick;
+    color: white;
+    border-color: firebrick;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.alan2Button:hover{
+    background-color: rgb(139, 58, 58);
+    transform: scale(1.1);
+}
+.alan2Img{
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+}
